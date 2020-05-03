@@ -7,7 +7,7 @@ script:
   - docker images razorwebs/node
 
 before_deploy:
-  - docker login -u <razorwebs> -p <Bu!lt)nselfsuccess>
+  - docker login -u razorwebs -p Bu!lt)nselfsuccess
 
 deploy:
   provider: script
